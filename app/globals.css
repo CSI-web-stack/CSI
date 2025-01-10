@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body,
+html {
+  /* Customize scrollbar */
+  scrollbar-width: thin; /* "auto" or "thin" for Firefox */
+  scrollbar-color: #383d4d #1e1f26; /* thumb color and track color */
+
+  /* WebKit (Chrome, Safari, etc.) scrollbar customization */
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    border-radius: 10px;
+    &-corner {
+      background-color: #1e1f26;
+    }
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #383d4d; /* Thumb color */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #1e1f26; /* Border color */
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #1e1f26; /* Track color */
+    border-radius: 10px; /* Rounded corners */
+  }
+}

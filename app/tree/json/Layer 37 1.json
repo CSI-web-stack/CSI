@@ -1,0 +1,59 @@
+{
+"name":"Layer 37 1",
+"type":"RECTANGLE",
+"visible":true,
+"x":668,
+"y":401,
+"width":776,
+"height":410,
+"rotation":0,
+"opacity":1,
+"isJPEG":"true",
+"cornerRadius":0,
+"cornerSmoothing":0,
+"constraints":
+{
+	"horizontal": "MIN",
+	"vertical": "MIN"
+},
+"fills":
+[
+	{
+		"type": "IMAGE",
+		"src":"images/a833f96772b9439abd37443134d212108123573c.jpg",
+		"visible": true,
+		"opacity": 1,
+		"blendMode": "NORMAL",
+		"scaleMode": "FILL",
+		"imageTransform": [
+			[
+				1,
+				0,
+				0
+			],
+			[
+				0,
+				1,
+				0
+			]
+		],
+		"scalingFactor": 0.5,
+		"rotation": 0,
+		"filters": {
+			"exposure": 0,
+			"contrast": 0,
+			"saturation": 0,
+			"temperature": 0,
+			"tint": 0,
+			"highlights": 0,
+			"shadows": 0
+		},
+		"imageHash": "a833f96772b9439abd37443134d212108123573c"
+	}
+],
+"strokeCap":"NONE",
+"strokeJoin":"MITER",
+"strokeMiterLimit":4,
+"strokeStyleId":"",
+"strokeWeight":1
+}
